@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Boostrap Page</title>
+    <!-- I had to add this because I couldn't figure out the image sizes with just bootstrap -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="./assets/favicon.ico" rel="icon" type="image/x-icon" />
+
+</head>
+
+<body background="./assets/paper_1.png">
+    <!-- Header -->
+    <!-- Name Block -->
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-white mb-4">
+        <blockquote class="navbar-brand blockquote text-center text-light mt-2 pl-5">
+            <h2>Travis Shelton
+            </h2>
+        </blockquote>
+        <!-- Links -->
+        <div class="d-flex ml-auto pr-5">
+            <div class="p-1">
+                <a class="text-light" href="index.html">About</a>
+            </div>
+            <div class="p-1">
+                <a class="border-left border-right px-2 text-light" href="portfolio.html">Portfolio</a>
+            </div>
+            <div class="p-1">
+                <a class="text-light" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Main body of the Page / Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 bg-light border my-4 mb-5">
+                <div class=row>
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 border-bottom pb-2 pt-4 px-3 mx-3">
+                        <h3>Contact Me</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 pb-2 pt-4 px-3 mx-3">
+                        <form>
+                            <div class="form-group px-3">
+                                <label for="exampleFormControlInput1">Name</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                            </div>
+                            <div class="form-group px-3">
+                                <label for="exampleFormControlInput1">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group px-3">
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Hit me with the Deetz" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary mb-2 px-3 mx-3">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Division to seperate SideBar -->
+            <div class="col-md-1 col-lg-1 col-xl-1 mb-5">
+            </div>
+            <!-- Sidebar -->
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 bg-light border my-4 mb-5">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 border-bottom m-4 pl-5 pr-5">
+                        <h4>Connect with Me</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-5">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <a id="gitHub" href="https://github.com/tshelton90" target="blank">
+                                    <img class="thumbnail img-rounded img-responsive px-5" src="assets/github.png" alt="GitHub Link">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 my-3">
+                                <a id="linkedIn" href="https://www.linkedin.com/in/travis-shelton-b22a8ab/" target="blank">
+                                    <img src="assets/linkedin-icon-logo-FBADE03110-seeklogo.com.png" class="thumbnail img-rounded img-responsive px-5" alt="LinkedIn Link">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-5">
+                                <a id="stackOverflow" href="https://stackoverflow.com/users/8756636/travis-shelton?tab=profile" target="blank">
+                                    <img src="assets/so-icon.png" class="thumbnail img-rounded img-responsive px-5" alt="Stack Overflow Link">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer bg-dark fixed-bottom mt-4 border-top">
+        <div class="container">
+            <div class="row justify-content-center py-3">
+                <span class="text-muted justify-content-center">©Copyright 2018 Travis Shelton.</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
